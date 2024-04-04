@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 dtcooper/raspberrypi-os:python3.12-bookworm
+FROM --platform=linux/arm64 dtcooper/raspberrypi-os:latest
 
 RUN apt-get update -y \ 
 && apt-get -y --no-install-recommends install \
