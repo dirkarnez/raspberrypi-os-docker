@@ -2,7 +2,8 @@ version: '3.7'
 
 services:
 
-  circle:
+  rpios:
+    platform: linux/arm64
     build: 
       context: ./
     # stdin_open: true # docker run -i
